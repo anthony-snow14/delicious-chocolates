@@ -1,0 +1,185 @@
+﻿
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Chocolates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e6e6fa; /* Color de fondo lila */
+            color: #333; /* Color de texto */
+        }
+        header {
+            background-color: #9370db; /* Color lila */
+            color: #fff; /* Color de texto */
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid #7b68ee; /* Borde inferior */
+        }
+        header h1 {
+            font-size: 48px; /* Tamaño de fuente aumentado */
+            border: 2px solid #fff; /* Borde blanco alrededor del título */
+            padding: 10px 20px; /* Espaciado dentro del borde */
+            display: inline-block; /* Para que el borde rodee el texto */
+        }
+        nav {
+            background-color: #9370db; /* Color lila */
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff; /* Color de texto */
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px; /* Tamaño de fuente aumentado */
+            padding: 5px 10px; /* Espaciado alrededor del texto */
+            border: 2px solid #fff; /* Borde alrededor de cada enlace */
+            border-radius: 5px; /* Bordes redondeados */
+        }
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .chocolate {
+            width: 30%;
+            background-color: #fff;
+            margin-bottom: 20px;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .chocolate img {
+            width: 100%;
+            height: 200px; /* Altura fija para todas las imágenes */
+            object-fit: cover; /* Para que la imagen se ajuste correctamente */
+            border-top-left-radius: 10px; /* Bordes redondeados */
+            border-top-right-radius: 10px; /* Bordes redondeados */
+        }
+        .chocolate-info {
+            padding: 10px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .carrito {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .ofertas {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        .boton {
+            background-color: #3498db; /* Color de fondo */
+            border: none;
+            color: #fff; /* Color de texto */
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s; /* Transición de color de fondo */
+        }
+        .boton:hover {
+            background-color: #2980b9; /* Color de fondo al pasar el cursor */
+        }
+        .terminos {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Centra el texto */
+        }
+        .terminos a {
+            display: inline-block;
+            background-color: #9370db; /* Color lila */
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px; /* Bordes redondeados */
+            text-decoration: none;
+        }
+        .terminos button {
+            background-color: #9370db; /* Color lila */
+            color: #fff;
+            padding: 5px 10px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px; /* Bordes redondeados */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Delicious Chocolates 🍫</h1> <!-- Cambia el nombre de la página y la fuente -->
+    </header>
+    <nav>
+        <a href="#">🏠 Inicio</a>
+        <a href="#">📝 Registro e Iniciar Sesión</a>
+        <a href="#">Carrito de Compras 🛒</a>
+        <a href="#">Proceso de Pago Seguro 💳</a>
+        <a href="#">Opción de Personalización ✨</a>
+        <a href="#">Blog y Contenido Relacionado 📝</a>
+        <a href="#">Chat en Vivo 💬</a>
+        <a href="#">Integración con Redes Sociales 🌐</a>
+    </nav>
+    <section>
+        <div class="chocolate">
+            <img src="D:\tarea\CHOCO\chocolate-caliente-6-1360x2040.jpg" alt="Chocolate con leche">
+            <div class="chocolate-info">
+                <h2>Chocolate con leche</h2>
+                <p>Chocolate suave y cremoso con un delicado sabor a leche. 🥛🍫</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="chocolate">
+            <img src="D:\tarea\CHOCO\chocolate-negro-xl-1280x720x80xX.jpg" alt="Chocolate negro">
+            <div class="chocolate-info">
+                <h2>Chocolate negro</h2>
+                <p>Intenso chocolate negro con un toque amargo y afrutado. 🍇🍫</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="chocolate">
+            <img src="D:\tarea\CHOCO\640fb61bb084a.jpeg" alt="Chocolate blanco">
+            <div class="chocolate-info">
+                <h2>Chocolate blanco</h2>
+                <p>Chocolate blanco cremoso con un sabor a vainilla suave y dulce. 🍦🍫</p>
+                <button class="boton">Agregar al carrito</button>
+            </div>
+        </div>
+    </section>
+    <div class="ofertas">
+        <h2>Ofertas especiales</h2>
+        <p>¡No te pierdas nuestras ofertas especiales en chocolates seleccionados!</p>
+        <button class="boton">Ver ofertas</button>
+    </div>
+    <div class="terminos">
+        <button class="boton">Testimonios y Reseñas 📌</button>
+        <button class="boton">Términos y Condiciones 🔒</button>
+    </div>
+</body>
+</html>
